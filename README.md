@@ -2,7 +2,7 @@
 
 The task titled “Landing Webpage Designing using HTML and CSS” involved creating a simple and responsive landing page using only HTML and CSS. The goal was to design a clean webpage layout with a header, navigation bar, hero section, and footer, demonstrating the ability to structure and style a web page effectively using fundamental web technologies.
 
-Additionally enhancements that i did to the give task:
+Additionally enhancements that i did to the give task :-
 
 ⦁	Added a soft background image with gradient overlay for better visuals.
 
