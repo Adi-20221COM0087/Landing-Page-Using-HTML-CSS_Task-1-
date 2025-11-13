@@ -1,0 +1,122 @@
+/* Reset + Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* Smooth scrolling for nav links */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Header (Navbar) ===== */
+header {
+  background: #0077c8;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d4e9ff;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  position: relative;
+  height: 100vh;
+  background:
+    linear-gradient(to right, rgba(0, 123, 255, 0.85), rgba(0, 200, 255, 0.85)),
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.btn {
+  background-color: white;
+  color: #0077c8;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+/* ✨ Hover shadow effect on button */
+.btn:hover {
+  background-color: #e6f4ff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* ✨ Hover Animation for Social Icons */
+.social-icons a:hover {
+  color: #00c6ff;
+  transform: translateY(-5px) scale(1.2);
+}
